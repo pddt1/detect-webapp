@@ -1,0 +1,80 @@
+html,body
+{
+  font-family: 'Roboto Mono', monospace;
+  color: #333;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+}
+.fullwidth{
+  flex: 0 0 100%;
+}
+h1 {
+  text-align: center;
+}
+.preview {
+  margin-top: 1ex;
+  margin-bottom: 1.1em;
+  max-width: 95%;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.output{
+  margin-top: 1ex;
+  margin-bottom: 1.1em;
+  max-width: 95%;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  display: inline-block;
+}
+img {
+  width: 100%;
+}
+
+label.btn, button.btn {
+  border: 0.2ex solid #ccc;
+  display: inline-block;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+  color: #333;
+}
+label.btn:hover, button.btn:hover {
+  border: 0.2ex solid #333;
+}
+label.hide, button.hide, div.hide {
+  display: none;
+}
+
+.progress {
+  color: #919191;
+  pointer-events: none;
+  border: 0.2ex solid white;
+}
+
+.version {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 1ex;
+  width: 100%;
+  line-height: 3ex;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="file"] {
+  display: none;
+}
